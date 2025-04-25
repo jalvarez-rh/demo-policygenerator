@@ -3,7 +3,7 @@ kind: PolicyGenerator
 metadata:
   name: policy-generator-example
 policyDefaults:
-  namespace: default
+  namespace: openshift-gitops
   placement:
     labelSelector:
       rhdp_usage: development
